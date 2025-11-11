@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Notebook Clipper",
+  "version": "1.0.0",
+  "description": "Save snippets, images, and links into notebooks.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Notebook Clipper"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
